@@ -38,6 +38,30 @@ console.log(typeof myFunction);
 console.log(typeof myObj);
 console.log(typeof heroes);
 
+//+++++++++++++++++++++++++++++++++++
+
+//Stack(primitive), Heap(Non-Primitive)
+
+let myName="SajidZeya"
+
+let anotherName=myName
+anotherName="Bhiku"
+console.log(myName);
+console.log(anotherName);
+
+let user1={
+    email:"user@gmail.com",
+    upi:"user@oksbi"
+}
+
+let user2=user1
+user2.email="abc@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
+
+
 
 
 
